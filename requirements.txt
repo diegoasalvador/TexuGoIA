@@ -1,0 +1,17 @@
+# TeXuGo-GuardIA - Dependências do Projeto
+# Instalação: pip install -r requirements.txt
+
+# Interface CLI e formatação visual
+rich>=13.7.0
+
+# Gerenciamento de variáveis de ambiente
+python-dotenv>=1.0.0
+
+# Requisições HTTP para análise de headers e endpoints web
+requests>=2.31.0
+
+# Suporte a Inteligência Artificial (Google Gemini)
+google-generativeai>=0.5.0
+
+# Suporte opcional a modelos OpenAI
+openai>=1.14.0

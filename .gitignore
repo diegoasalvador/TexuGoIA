@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Configurações locais, segredos e chaves de API
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.secret
+
+# Bancos de dados locais e artefatos de indexação
+*.db
+*.sqlite
+*.sqlite3
+.codegraph/
+
+# Relatórios gerados e caches locais
+.cache_*.json
+relatorio_*.md
+relatorio_*.json
+auditoria_*.json
+relatorios/*.md
+relatorios/*.json
+relatorios/*.txt
+!relatorios/.gitkeep
+backup.tar.gz
+
+# IDEs e ferramentas de sistema
+.vscode/
+.idea/
+*.swp
+*.swo
